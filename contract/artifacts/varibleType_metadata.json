@@ -111,6 +111,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "enumToUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "isOpen",
 				"outputs": [
 					{
@@ -196,18 +209,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"contract/valueType.sol": {
-			"keccak256": "0x7c9178a958583fc3e03c1d07ad825cbd2816496c6ea4c185a061455cad95df84",
+			"keccak256": "0xe65b5805210ddc57f8f224b8b97d11ea61a73c5017b815a1abd6391434c8e738",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://818ea70ca80e9c22b666d1d05e7cb21a05929a0b67b36ce187546f1511a75237",
-				"dweb:/ipfs/QmU6g7YagJJDn2MFXBWLtnj3RofEass57qCDsNpAZDzRYa"
+				"bzz-raw://330ba900529f52fe65eda901b4cff36c17e19c469b5f054a296486e301b7fda9",
+				"dweb:/ipfs/QmSNwTGJxSkPPubHdUjwJfwQhNmbiUj3az7bKXJbFAteMh"
 			]
 		}
 	},

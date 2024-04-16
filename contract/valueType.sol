@@ -28,5 +28,16 @@ contract varibleType{
     //回傳0x6e
     bytes12 public _byte12 = "MiniSolidity"; 
     bytes1 public b2 = _byte32[2];
+
+    //列舉
+    // 用enum将uint 0， 1， 2表示为Buy, Hold, Sell
+    enum ActionSet { Buy, Hold, Sell }
+    // 创建enum变量 action
+    ActionSet action = ActionSet.Buy;
+
+    // enum可以和uint显式的转换
+    function enumToUint() external view returns(uint){
+        return uint(action);
+    }
 } 
 

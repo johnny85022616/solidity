@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "originNum",
+						"type": "uint256"
+					}
+				],
+				"name": "addPure",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "newNum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addView",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "newNum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositePayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minusCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/functionType.sol": "functionType"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/functionType.sol": {
+			"keccak256": "0xf1523325984209aa0349e8acce0f78faac8b49f08320d5b70f5c2ca700927b00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://90e91f5c5c0c061725c6a7e09baa6e6cf8e4400fa530d68d9d9b11d17c80bc0f",
+				"dweb:/ipfs/QmVWmNj8NcopfHZPezEHuP7E8TfTAnzvH3J27SWn6KdakY"
+			]
+		}
+	},
+	"version": 1
+}
