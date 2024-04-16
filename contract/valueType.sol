@@ -20,13 +20,13 @@ contract varibleType{
 
     // 固定长度的字节数组
     bytes32 public _byte32 = "MiniSolidity"; 
-    bytes12 public _byte12 = "MiniSolidity"; 
     bytes1 public b1 = _byte32[2];
-
     //1byte = 8bits = 1111 1111 = 0xff
     //所以1byte = 2個16進位
-    //0x4d696e69536f6c69646974790000000000000000000000000000000000000000
+    //0x4d696e69536f6c69646974790000000000000000000000000000000000000000 (0x後方有2*32=64位)
     //_byte1從上方數字中從0x之後開始取第3個字節(1個字節2個16進位)
     //回傳0x6e
+    bytes12 public _byte12 = "MiniSolidity"; 
+    bytes1 public b2 = _byte32[2];
 } 
 

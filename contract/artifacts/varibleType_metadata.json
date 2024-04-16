@@ -72,6 +72,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "b2",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "balance",
 				"outputs": [
 					{
@@ -190,11 +203,11 @@
 	},
 	"sources": {
 		"contract/valueType.sol": {
-			"keccak256": "0xf20da14683725d3374636618bad3c15381e62d587a9ed523e40d955e52f3e089",
+			"keccak256": "0x7c9178a958583fc3e03c1d07ad825cbd2816496c6ea4c185a061455cad95df84",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bdb5936d192d4564064f125866bd148be2367c35f6b030cd900b0067b1fb8734",
-				"dweb:/ipfs/QmSu5H1iYc5WnUMtrJm1AfETXLhGa5uUR1KMPRhqnXSh1L"
+				"bzz-raw://818ea70ca80e9c22b666d1d05e7cb21a05929a0b67b36ce187546f1511a75237",
+				"dweb:/ipfs/QmU6g7YagJJDn2MFXBWLtnj3RofEass57qCDsNpAZDzRYa"
 			]
 		}
 	},
